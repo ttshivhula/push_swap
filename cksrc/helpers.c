@@ -6,11 +6,25 @@
 /*   By: ttshivhu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/23 07:27:16 by ttshivhu          #+#    #+#             */
-/*   Updated: 2017/07/23 09:24:13 by ttshivhu         ###   ########.fr       */
+/*   Updated: 2017/07/23 10:58:15 by ttshivhu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "checker.h"
+
+void	check_big(char **v, int c, t_ints *t_i)
+{
+	int i;
+
+	i = 1;
+	while (i < c)
+	{
+		if (ft_atol(v[i]) > 2147483647)
+			ft_puterror("Error");
+		i++;
+	}
+	init(t_i);
+}
 
 int		ft_chk_line(char *line, int e)
 {

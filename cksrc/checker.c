@@ -6,7 +6,7 @@
 /*   By: ttshivhu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/23 07:26:48 by ttshivhu          #+#    #+#             */
-/*   Updated: 2017/07/23 10:32:39 by ttshivhu         ###   ########.fr       */
+/*   Updated: 2017/07/23 10:57:04 by ttshivhu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int		main(int argc, char **argv)
 	t_vars	t_v;
 	t_ars	t_a;
 
-	init(&t_i);
+	check_big(argv, argc, &t_i);
 	if (argc >= 2)
 	{
 		t_v.ins = NULL;

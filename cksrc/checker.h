@@ -6,7 +6,7 @@
 /*   By: ttshivhu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/23 07:28:31 by ttshivhu          #+#    #+#             */
-/*   Updated: 2017/07/23 10:19:30 by ttshivhu         ###   ########.fr       */
+/*   Updated: 2017/07/23 10:57:43 by ttshivhu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,7 @@ typedef struct	s_vars
 	char	**av_s;
 }				t_vars;
 
+void			check_big(char **v, int c, t_ints *t_i);
 void			init(t_ints *i);
 int				ft_isdigit_str(char *str);
 void			ft_puterror(char const *error);
