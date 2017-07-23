@@ -6,7 +6,7 @@
 /*   By: ttshivhu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/23 07:28:31 by ttshivhu          #+#    #+#             */
-/*   Updated: 2017/07/23 09:42:37 by ttshivhu         ###   ########.fr       */
+/*   Updated: 2017/07/23 10:19:30 by ttshivhu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,6 @@ void			init(t_ints *i);
 int				ft_isdigit_str(char *str);
 void			ft_puterror(char const *error);
 void			ft_atoi_max(const char *nptr, int **r);
-void			ft_putnendl(int n);
 int				main(int argc, char **argv);
 void			ft_s_pargs(t_ars *t_a, t_vars *t_v, t_ints *t_i);
 void			ft_pargs(t_ars *t_a, t_vars *t_v, t_ints *t_i, int ac);
