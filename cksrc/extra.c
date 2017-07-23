@@ -6,7 +6,7 @@
 /*   By: ttshivhu <marvin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/22 12:01:24 by ttshivhu          #+#    #+#             */
-/*   Updated: 2017/07/23 09:42:59 by ttshivhu         ###   ########.fr       */
+/*   Updated: 2017/07/23 10:19:07 by ttshivhu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,10 +59,4 @@ void	ft_atoi_max(const char *nptr, int **r)
 	}
 	else
 		*r = NULL;
-}
-
-void	ft_putnendl(int n)
-{
-	ft_putnbr(n);
-	write(1, "\n", 1);
 }
