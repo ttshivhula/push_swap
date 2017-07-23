@@ -6,7 +6,7 @@
 /*   By: ttshivhu <marvin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/22 17:34:43 by ttshivhu          #+#    #+#             */
-/*   Updated: 2017/07/23 09:00:09 by ttshivhu         ###   ########.fr       */
+/*   Updated: 2017/07/23 10:46:01 by ttshivhu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,6 +55,7 @@ void				*ft_memmove(void *dest, const void *src, size_t n);
 void				*ft_memchr(const void *s, int c, size_t n);
 int					ft_memcmp(const void *s1, const void *s2, size_t n);
 int					ft_atoi(const char *str);
+long				ft_atol(const char *str);
 int					ft_isalnum(int c);
 int					ft_isascii(int c);
 int					ft_isdigit(int c);
