@@ -6,7 +6,7 @@
 /*   By: ttshivhu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/23 07:26:48 by ttshivhu          #+#    #+#             */
-/*   Updated: 2017/07/23 09:31:35 by ttshivhu         ###   ########.fr       */
+/*   Updated: 2017/07/23 10:32:39 by ttshivhu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -110,7 +110,7 @@ void	ft_instruct(t_vars *t_v, t_ints *t_i)
 		ft_strcpy(t_v->temp, t_v->ins);
 		ft_strdel(&t_v->ins);
 	}
-	t_v->ins = (char*)ft_memalloc(sizeof(char) * (t_i->num + t_i->len + 2));
+	t_v->ins = (char*)ft_memalloc(sizeof(char) * (t_i->num + t_i->len + 1));
 	if (t_v->temp != NULL && t_i->e == 0)
 	{
 		ft_strcpy(t_v->ins, t_v->temp);
